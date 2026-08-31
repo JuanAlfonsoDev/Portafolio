@@ -1,0 +1,67 @@
+🏠 1. Inicio
+
+Una presentación corta:
+
+Tu nombre
+Qué estudias
+Qué área te interesa
+Una frase corta sobre ti
+Botón para ver tus proyectos
+👨‍💻 2. Sobre mí
+
+Aquí puedes contar:
+
+Tu formación
+Qué estás aprendiendo
+Tus intereses en tecnología
+Tus objetivos profesionales
+🛠️ 3. Habilidades
+
+Podrías dividirlas en:
+
+Lenguajes: C, JavaScript, Python, etc.
+Web: HTML, CSS, JavaScript
+Tecnologías: Git, Linux, etc.
+Otros: dependiendo de lo que hayas aprendido
+
+No hace falta poner cosas que todavía no dominas.
+
+📂 4. Proyectos
+
+Esta debería ser una de las partes más importantes.
+
+Cada proyecto podría mostrar:
+
+Nombre
+Imagen/captura
+Descripción
+Tecnologías utilizadas
+Lo que aprendiste
+Enlace al código
+Enlace al proyecto, si tiene
+📚 5. Formación
+
+Podrías colocar tus estudios y cursos de manera cronológica.
+
+Por ejemplo:
+
+Ingeniería / carrera actual
+Universidad → Actualmente
+
+Formación técnica
+SENA → Finalizado
+
+Cursos
+
+Curso X
+Curso Y
+📞 6. Contacto
+
+Algo sencillo:
+
+Correo
+LinkedIn
+GitHub
+Formulario de contacto
+
+
