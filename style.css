@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 footer{
     border: solid ;
@@ -9,4 +10,30 @@ footer{
 }
 nav{
     background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #000612;
+}
+
+
+img{
+    width: 100px;
+    height: 50px;
+    display: inline;
+}
+
+.contenedor_logos{
+    display: flex;
+    margin: 0;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-right: 5%;
 }
