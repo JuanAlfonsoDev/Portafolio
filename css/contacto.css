@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+footer{
+    border: solid ;
+    background-color: aqua;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    background-color: rgb(244, 235, 224);
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #F8FAFC;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+
+.contenedor_logos{
+    display: flex;
+    margin: 0;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-right: 5%;
+    
+}
+

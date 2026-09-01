@@ -1,5 +1,0 @@
-- Habilidades tecnicos y despues blandas 
-- modo oscuro y modo claro
-- #000612
-
-

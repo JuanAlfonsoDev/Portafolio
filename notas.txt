@@ -65,3 +65,30 @@ GitHub
 Formulario de contacto
 
 
+--------------------------------------------------------------------------
+
+
+🌙 Modo oscuro
+Uso	Color
+Fondo principal	#0D1117
+Fondo secundario	#161B22
+Tarjetas / superficies	#1F242C
+Bordes	#2A313C
+Texto principal	#E6EDF3
+Texto secundario	#A7B0BB
+Texto terciario	#69727D
+Verde principal	#22C55E
+Verde hover	#16A34A
+Verde suave	#86EFAC
+☀️ Modo claro
+Uso	Color
+Fondo principal	#F8FAFC
+Fondo secundario	#FFFFFF
+Tarjetas / superficies	#F1F5F9
+Bordes	#E2E8F0
+Texto principal	#0F172A
+Texto secundario	#475569
+Texto terciario	#64748B
+Verde principal	#16A34A
+Verde hover	#15803D
+Verde suave	#DCFCE7
