@@ -7,6 +7,9 @@
 footer{
     border: solid ;
     background-color: aqua;
+    height: 100px;
+    align-items: center;
+    text-align: center;
 }
 nav{
     background-color: bisque;
@@ -15,13 +18,13 @@ nav{
 }
 
 body{
-    background-color: #000612;
+    background-color: #a0bcf4;
 }
 
 
 img{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     display: inline;
 }
 
@@ -36,4 +39,6 @@ img{
     justify-content: space-between;
     gap: 1.5rem;
     margin-right: 5%;
+    
 }
+
