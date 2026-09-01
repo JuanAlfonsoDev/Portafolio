@@ -11,7 +11,7 @@ footer{
     height: 200px;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 nav{
     background-color: rgb(244, 235, 224);
@@ -54,4 +54,10 @@ p{
 }
 .footer_div{
     border-right: #86EFAC solid;
+    padding: 2%;
+    flex-direction: ro;
+}
+
+.enlaces_footer{
+    list-style: none;
 }
