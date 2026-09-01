@@ -5,11 +5,13 @@
     
 }
 footer{
+    display: flex;
     border: solid ;
-    background-color: aqua;
-    height: 100px;
+    background-color: #0D1117;
+    height: 200px;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 nav{
     background-color: rgb(244, 235, 224);
@@ -40,5 +42,17 @@ img{
     gap: 1.5rem;
     margin-right: 5%;
     
+}
+.footer_logo{
+    width: 10%;
+    height: 10%;
+    display: inline;
+    
+}
+p{
+    color: aliceblue;
+}
+div{
+    border: #F8FAFC solid;
 }
 

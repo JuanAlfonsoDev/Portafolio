@@ -92,3 +92,7 @@ Texto terciario	#64748B
 Verde principal	#16A34A
 Verde hover	#15803D
 Verde suave	#DCFCE7
+
+
+nav
+footer 
