@@ -96,3 +96,10 @@ Verde suave	#DCFCE7
 
 nav
 footer 
+---------------------------------------------
+DISEÑO DE BOTON 
+<!-- <div class="footer_div">
+            <p class="texto_footer">¿Tienes un proyecto en mente? </p>
+            <p class="titulo_footer">Hablemos</p>
+            <input class="boton_footer" type="button" value="Contactame">
+        </div> -->
