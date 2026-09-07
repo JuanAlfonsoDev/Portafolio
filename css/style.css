@@ -17,24 +17,26 @@ nav{
     
     display: flex;
     justify-content: space-between;
+    border: #4ff 3px solid;
 }
 
 body{
     background-color: #F8FAFC;
 }
-
-
-img{
+.logo_nav{
     width: 150px;
-    height: 150px;
-    display: inline;
 }
 
-.contenedor_logos{
-    display: flex;
-    border: #000 solid 1px;
-    width: 40%;
+
+
+.contenedor_logo{
     height: 50px;
+    display: inline;
+    margin: 0;
+    max-width: 80%;
+    border: 1px black solid;
+    width: 40%;
+  
 }
 
 .contenedor_nav_enlaces{
@@ -113,13 +115,14 @@ img{
     display: inline;
     margin: 0;
     max-width: 80%;
-  
-
+    border: #15803D;
+    color: #4ff;
+    width: 150px;
+    
 }
 
 .footer_div{
     padding: 0 40px;
-    
 }
 
 .enlaces_footer{
@@ -187,7 +190,6 @@ img{
     cursor: pointer;
 }
 .linea_footer{
-    
     border: 1px;
     height: 60%;
     width: 1px;
