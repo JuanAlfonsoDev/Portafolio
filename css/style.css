@@ -8,7 +8,7 @@ footer{
     display: flex;
     border: solid ;
     background-color: #0D1117;
-    height: 300px;
+    height: 270px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -100,7 +100,7 @@ img{
     font-size: 30px;
     border: 1px solid #1b1c1c ;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     padding: 1px;
     cursor: pointer;
     background-color: #aaa;
@@ -109,15 +109,16 @@ img{
 
 
 .footer_logo{
-    width: 10%;
-    height: 10%;
+    height: auto;
     display: inline;
-    
+    margin: 0;
+    max-width: 80%;
+  
+
 }
 
 .footer_div{
-    border-right: #86EFAC solid 1px;
-    padding: 2%;
+    padding: 0 40px;
     
 }
 
@@ -184,4 +185,11 @@ img{
     background-color: #15803D;
     border: none;
     cursor: pointer;
+}
+.linea_footer{
+    
+    border: 1px;
+    height: 60%;
+    width: 1px;
+    border-right: #86EFAC solid 1px;
 }
