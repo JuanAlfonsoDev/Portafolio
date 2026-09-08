@@ -1,1 +1,5 @@
-Se agrego imagnes al nav y queda pendiente arreglaro lo que falte 
+Se termino el nav falta dejar todo listo con las demas pagians  
+----
+
+target="_self" que se abra otra pestaña en el navegador 
+title se lo pone encima para cuando pase el mouse

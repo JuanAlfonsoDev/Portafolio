@@ -17,32 +17,36 @@ nav{
     
     display: flex;
     justify-content: space-between;
-    border: #4ff 3px solid;
 }
 
 body{
     background-color: #F8FAFC;
 }
 .logo_nav{
-    width: 150px;
+    width: 160px;
+    height: 100%;
+    margin-left: 50%;
 }
 
 
 
 .contenedor_logo{
+    display: flex;
     height: 50px;
-    display: inline;
     margin: 0;
     max-width: 80%;
-    border: 1px black solid;
+    margin-bottom: 100px;
     width: 40%;
+    justify-content: flex-start;
+    border-bottom: rgb(201, 190, 185) solid 2px;
+    
   
 }
 
 .contenedor_nav_enlaces{
     display: flex;
     justify-content: space-evenly;
-    border: #000 solid 1px;
+    border-bottom: rgb(201, 190, 185) solid 2px;
     width: 60%;
     background-color: #F8FAFC;
     height: 50px;
