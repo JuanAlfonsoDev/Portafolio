@@ -1,4 +1,4 @@
-Falta actualizar todo las paginas se empezo con proyectos que tenga bien las rutas   
+Se termino de arreglar las rutas de cada archivo   
 ----
 
 target="_self" que se abra otra pestaña en el navegador 
