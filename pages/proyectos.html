@@ -3,52 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Proyectos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />  
     <link rel="stylesheet" href="../css/proyectos.css">
 </head>
 <body>
      <header>
         <nav>
-            <div class="contenedor_logos">
-                <img class="logo_img" src="img/lightl_logo.jpg" alt="Logo">
-                
+            <div class="contenedor_logo">
+                <a href="../index.html">
+                <img class="logo_nav" src="../img/imagotipo.png" alt="Imagotipo">
+                </a>
             </div>
-            
-                <ul class="enlaces" >
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="formacion.html">Formacion</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <div class="contenedor_nav_enlaces">
+                <a class="enlaces_nav" href="../index.html">Inicio</a>
+                <a class="enlaces_nav enlaces_nav--proyecto"  href="proyectos.html">Proyectos</a>
+                <a  class="enlaces_nav" href="formacion.html">Formacion</a>
+                <input class="boton_contacteme  " type="button" value="Contactame">
+                <button class="boton_apagado">
+                    <i class="ti ti-moon"></i>
+                </button>
+            </div>           
         </nav>
     </header>
-    <form action="">
-        
-    </form>
+    <h1>ESTOS SON LOS PROYECTOS</h1>
+
+    <!-- FOOTER -->
     <footer>
         <div class="footer_div">
-            <img class="footer_logo" src="" alt="logo">
+            <img class="footer_logo" src="../img/logo_footer.png" alt="Logo">
         </div>
+        <div class="linea_footer"></div>
         <div class="footer_div">
-            <p>"¿Tienes un proyecto en mente? "</p>
-            <p>Hablemos</p>
-            <input type="button" value="Contactame">
+            <p class="titulo_footer">Redes</p>
+            <p><a class="link_footer" target="_blank" href="https://github.com/JuanAlfonsoDev">Github</a></p>
+            <p><a class="link_footer" target="_blank" href="https://www.linkedin.com/in/juan-esteban-alfonso-hernandez-/">Linkedin</a></p>
         </div>
+        <div class="linea_footer"></div>
         <div class="footer_div">
-            <p>Redes</p>
-            <p><a href="">Github</a></p>
-            <p><a href="">Linkedin</a></p>
+            <p class="titulo_footer">Datos</p>
+            <p class="texto_footer">juanalfonsowork@gmail.com</p>
+            <p class="texto_footer">Bogota D.C. Colombia</p>
         </div>
+        <div class="linea_footer"></div>
         <div class="footer_div">
-            <p>juanalfonsowork@gmail.com</p>
-            <p>Bogota D.C, Colombia</p>
+            <p class="titulo_footer">Portafolio</p>
+            <ul class="enlaces_footer" >
+                <li><a class="link_footer" href="../index.html">Inicio</a></li>
+                <li><a class="link_footer" href="proyectos.html">Proyectos</a></li>
+                <li><a class="link_footer" href="formacion.html">Formacion</a></li>
+                <li><a class="link_footer" href="contacto.html">Contacto</a></li>
+            </ul>
         </div>
+        <div class="linea_footer"></div>
         <div class="footer_div">
-            <p>enlaces</p>
+            <p class="texto_footer">© Portafolio Programador Full Stack Junior. </p>
+            <p class="texto_footer">Sitio desarrollado por <p class="nombre_footer">Juan Alfonso</p> </p>
         </div>
-        <div class="footer_div">
-            <p>© Portafolio Programador Full Stack Junior. </p>
-            <p>Sitio desarrollado por Juan Alfonso </p>
-        </div>
+        <div class="linea_footer"></div>
+        
     </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-Se termino el nav falta dejar todo listo con las demas pagians  
+Falta actualizar todo las paginas se empezo con proyectos que tenga bien las rutas   
 ----
 
 target="_self" que se abra otra pestaña en el navegador 
