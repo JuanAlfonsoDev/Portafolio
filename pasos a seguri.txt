@@ -1,4 +1,4 @@
-Se termino de arreglar las rutas de cada archivo   
+Se hizo el formulario de contactenos falta agragar estilos   
 ----
 
 target="_self" que se abra otra pestaña en el navegador 
