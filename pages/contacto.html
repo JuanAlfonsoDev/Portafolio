@@ -25,29 +25,49 @@
             </div>           
         </nav>
     </header>
-    <h1>CONTACTO</h1>
-    <form action="">
-        <!-- Nombre completo-->
-        <label for="full_name">Nombre completo:</label>
-        <input type="text" id="full_name" name="name" placeholder="Juan Perez" required><br>
-        <!-- Correo completo-->
-        <label for="email" >Correo:</label>
-        <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
-        <!-- Telefono completo-->
-        <label for="telefono">Telefono:</label>
-        <input type="text" id="telefono"  name="phone" placeholder="312 456 7890" required><br>
-        <!-- Nombre completo de la empresa-->
-        <label for="company">Empresa</label>
-        <input type="text" id="company" name="companyName" placeholder="Empresa software" required><br>
-        <!-- Nombre de la ciudad-->
-        <label for="city">Ciudad:</label>
-        <input type="text" id="city" name="city" placeholder="Bogota D.C, Colombia" required><br>
-        <!-- Mensaje adicional -->
-        <label for="text_comments">Mensaje adicional</label>
-        <textarea name="" id="text_comments" rows="5" cols="40" placeholder="Ejemplo te que queremos para este tipo de trabajo"></textarea><br>
-        <input type="submit">
-
-    </form>
+    <main>
+        <h1 class="titulo_form">CONTACTO</h1>
+        <div class="contenedor_form">
+            <form action="">
+            <!-- Nombre completo-->
+            <p class="p_form">
+            <label class="label_form" for="full_name">Nombre completo:</label><br>
+            <input class="input_form" type="text" id="full_name" name="name" placeholder="Ejemplo: Juan Perez" required>
+            </p>
+            <!-- Correo completo-->
+            <p class="p_form">
+                <label class="label_form" for="email" >Correo:</label><br>
+                <input class="input_form" type="email" id="email" name="email" placeholder="Ejemplo: example@example.com" required>
+            </p>
+            
+            <!-- Telefono completo-->
+            <p class="p_form">
+                <label class="label_form" for="telefono">Telefono:</label><br>
+                <input  class="input_form" type="text" id="telefono"  name="phone" placeholder="Ejemplo: 312 456 7890" required>
+            </p>
+            <!-- Nombre completo de la empresa-->
+            <p class="p_form">
+                <label  class="label_form"for="company">Empresa</label><br>
+                <input class="input_form" type="text" id="company" name="companyName" placeholder="Ejemplo: Empresa software" required>
+            </p>
+            
+            <!-- Nombre de la ciudad-->
+            <p class="p_form">
+                <label  class="label_form" for="city">Ciudad:</label><br>
+                <input class="input_form" type="text" id="city" name="city" placeholder="Ejemplo: Bogota D.C, Colombia" required>
+            </p>
+            <!-- Mensaje adicional -->
+            <p class="p_form">
+                <label  class="label_form"for="text_comments">Mensaje adicional</label><br>
+                <textarea maxlength="500" name="" id="text_comments" class="textarea_form" placeholder="Ejemplo: Te que queremos para este tipo de trabajo max 500 caracteres "></textarea><br>
+            </p>
+            
+            <button class="boton_form" type="submit">Enviar</button>
+            </form>
+        </div>
+    
+    </main>
+    
 
     <!-- FOOTER -->
     <footer>

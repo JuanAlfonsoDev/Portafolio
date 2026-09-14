@@ -1,5 +1,7 @@
-Se hizo el formulario de contactenos falta agragar estilos   
+Falta continuar con los contenedores y seguir en cada pagina 
 ----
 
 target="_self" que se abra otra pestaña en el navegador 
 title se lo pone encima para cuando pase el mouse
+
+
