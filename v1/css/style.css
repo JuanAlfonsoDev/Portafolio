@@ -4,7 +4,29 @@
     box-sizing: border-box;
     
 }
-.div_maqueta{
+.contenedor_img_principal{
+    display: flex;
+    height: 100%;
+}
+.c2ontenedor_logo{
+    display: flex;
+    height: 50px;
+    margin: 0;
+    max-width: 80%;
+    margin-bottom: 100px;
+    width: 40%;
+    justify-content: flex-start;
+    border-bottom: rgb(201, 190, 185) solid 2px;
+    
+  
+}
+.l2ogo_nav{
+    width: 160px;
+    height: 100%;
+    margin-left: 50%;
+}
+.contenedor_central{
+    display: flex;
     border: #000 solid 1px;
     margin: 50px;
     height: 100px;
