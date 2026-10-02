@@ -1,5 +1,22 @@
-Falta continuar con los contenedores y seguir en cada pagina 
-----
+Inicio 
+- Debe tener la imagen bien 
+- Se debe tener el boton de descargar cv
+- Se debe tener un menu con los proyectos destacados
+Proyectos 
+- Se debe ver primero los proyectos destacados, con informacion aunque eso se debe mirar si se hace con base de datos para que cuando uno oprima lo lleve a cada proyecto
+- Se debe ver los demas proyectos
+- Tecnologias conocidas 
+Formacion
+-Hacer line de tiempo lo mas nuevo arriba lo mas viejo abajo
+- Curso, lo mismo con la linea de tiempo
+
+Contactame 
+- Mirar si se mejora el diseño
+
+- Ajuste para tema oscuro
+- Responsive 
+- Hacer base de datos 
+- Empezar a crear api con backend python
 
 target="_self" que se abra otra pestaña en el navegador 
 title se lo pone encima para cuando pase el mouse
