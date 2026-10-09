@@ -22,4 +22,4 @@ target="_self" que se abra otra pestaña en el navegador
 title se lo pone encima para cuando pase el mouse
 
 
--- Continua arreglando la imagen y el inicio
+-- Continua arreglando la imagen y el about me 
