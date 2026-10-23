@@ -5,7 +5,43 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+.barra_progreso {
+    width: 100%;
+    height: 18px;
+    background-color: #26352D;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.barra_avance {
+    width: 0%;
+    height: 100%;
+    background-color: #00E676;
+    border-radius: 20px;
+    transition: width 1s ease;
+}
+.tarjeta_proyecto_destacado{
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+}
+.contenedor_proyectos_destacados{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    background-color: #e0e0e2;
+    margin: 50px 0px;
+}
+
+.titulo_pagina{
+    text-align: center;
+    color: #22C55E;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;     
+    text-underline-offset: 9px;
+    
+}
 
 .linea_banner{
     border: 1px;
@@ -14,6 +50,21 @@
     background-color: #86EFAC;
 }
 
+.boton_banner:hover{
+    display: flex;
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #15803D;
+    border: 1px solid #15803D;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
 
 .boton_banner{
     display: flex;
@@ -28,8 +79,6 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 

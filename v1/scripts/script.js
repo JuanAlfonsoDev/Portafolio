@@ -12,3 +12,20 @@ if (!sessionStorage.getItem("alertMostrado")) {
     });
     sessionStorage.setItem("alertMostrado", "true");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tareasCompletadas = 4;
+    const tareasTotales = 12;
+
+    const barra = document.getElementById("barraAvance");
+    const texto = document.getElementById("porcentaje");
+
+    const avance = Math.round(
+        (tareasCompletadas / tareasTotales) * 100
+    );
+
+    if (barra && texto) {
+        barra.style.width = avance + "%";
+        texto.textContent = avance + "%";
+    }
+});
