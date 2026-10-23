@@ -21,4 +21,4 @@ target="_self" que se abra otra pestaña en el navegador
 title se lo pone encima para cuando pase el mouse
 
 
--- Se van a dejer solo tres proyectos destacados y falta el diseño de las tarjetas 
+-- Se sigue editando las tarjetas en el inico, se debe crear un partado para solo el proyecto en si con sus versiones
