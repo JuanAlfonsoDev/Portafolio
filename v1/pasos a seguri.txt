@@ -16,10 +16,10 @@ Contactame
 - Ajuste para tema oscuro
 - Responsive 
 - Hacer base de datos 
-- Empezar a crear api con backend python
+- Empezar a crear api con backend node.js
 
 target="_self" que se abra otra pestaña en el navegador 
 title se lo pone encima para cuando pase el mouse
 
 
--- Se adelanto unas cosas para la entrega para el profesor 
+-- Se adelanto el banner ya quedo funcional ahora debo hacer los proyectos destacados en carrucel 
