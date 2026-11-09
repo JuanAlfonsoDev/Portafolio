@@ -2,47 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.tarjeta{
+    box-shadow: 0px 0px 1px #000;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
     
 }
-.contenedor_proyectos_destacados{
+
+.image_container img{
+    width: 100px;
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 p {
+    text-align: center;
+}
+
+.div_maqueta, .div_maqueta_rick{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: 1fr 1fr ;
+    gap: 18px;
     border: #000 solid 1px;
-    margin: 50px;
-    height: 100%;
-}
-.tarjeta_proyecto {
-    background-color: #0D1117;
-    color: #E6EDF3;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 400px;
-    margin: 20px 0;
-}
-
-.barra_progreso {
-    width: 100%;
-    height: 18px;
-    background-color: #26352D;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.barra_avance {
-    width: 0%;
-    height: 100%;
-    background-color: #00E676;
-    border-radius: 20px;
-    transition: width 1s ease;
-}
-
-.div_maqueta{
-    border: #000 solid 1px;
-    margin: 50px;
-    height: 100px;
     
 }
+
+/* FIN DE LO DE LAS APIS DEL PROFE */
 footer{
     display: flex;
     border: solid ;

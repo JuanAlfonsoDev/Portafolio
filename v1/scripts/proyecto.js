@@ -64,3 +64,68 @@ document.addEventListener("DOMContentLoaded", function () {
         texto.textContent = avance + "%";
     }
 });
+
+
+
+function obtenerPersonajes(done){
+    const resultados = fetch("https://dragonball-api.com/api/characters")
+    resultados
+    .then(response => response.json())
+    .then(data => {
+        done(data)
+    });
+}
+
+obtenerPersonajes(data => {
+    data.items.forEach(personaje => {
+        const imagen = document.createRange().createContextualFragment(/*html*/`
+            
+            
+            
+            <div class="tarjeta">
+            <div class="image_container ">
+                <img src="${personaje.image}" alt="">
+            </div>
+            <h2>${personaje.name}</h2>
+            <p>${personaje.maxKi}</p>
+            </div>
+            
+            `);
+            const contenedor = document.querySelector(".div_maqueta")
+
+            contenedor.append(imagen)
+        
+    })
+});
+
+function obtenerPersonajesRick(done){
+    const resultados = fetch("https://rickandmortyapi.com/api/character")
+    resultados
+    .then(response => response.json())
+    .then(data => {
+        done(data)
+    });
+}
+
+obtenerPersonajesRick(data => {
+    data.results.forEach(personaje => {
+        const imagen = document.createRange().createContextualFragment(/*html*/`
+            
+            <div class="tarjeta">
+            <div class="image_container ">
+                <img src="${personaje.image}" alt="">
+            </div>
+            <h2>${personaje.name}</h2>
+            <p>${personaje.species}</p>
+            </div>
+            
+            `);
+            const contenedor = document.querySelector(".div_maqueta_rick")
+
+            contenedor.append(imagen)
+        
+    })
+});
+
+
+

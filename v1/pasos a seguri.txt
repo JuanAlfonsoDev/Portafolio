@@ -22,3 +22,8 @@ title se lo pone encima para cuando pase el mouse
 
 
 -- Se sigue editando las tarjetas en el inico, se debe crear un partado para solo el proyecto en si con sus versiones
+
+
+
+
+proyectos destacados y proyectos 
